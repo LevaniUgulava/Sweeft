@@ -31,3 +31,9 @@ This will create default roles (e.g., `administrator`, `user`):
 ```bash
 php artisan db:seed --class=RolesSeeder
 ```
+### 2) Run the `UserSeeder`:
+
+This will create default Users (e.g., `administrator`, `user`):
+
+```bash
+php artisan db:seed --class=UsersSeeder
